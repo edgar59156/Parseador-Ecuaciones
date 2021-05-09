@@ -15,14 +15,13 @@ public class ParseadorTest {
         assertEquals(2, resultado);
     }
     @Test
-    public void obtenerParte2Suma() {
+    public void obtenerOperadorSuma() {
 
-        String ecuacion1 = "2x + 1 = 0";
+        String ecuacion2 = "2x + 1 = 0";
 
-        int resultado = parseador.obtenerParte2(ecuacion1);
+        String operador = parseador.obtenerOperador(ecuacion2);
 
-        assertEquals(1, resultado);
+        assertEquals("+", operador);
     }
-
 
 }
