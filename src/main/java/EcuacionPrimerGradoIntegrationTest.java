@@ -7,7 +7,7 @@ public class EcuacionPrimerGradoIntegrationTest {
     @Test
     public void solucionaEcuacionConMenos() {
 
-        Double result = ecuacion.obtenerResultado("2x - 1 = 0");
+        Double result = ecuacion.obtenerResultado("3x - 1 = 0");
 
         Double valueExpected = 0.5;
 
