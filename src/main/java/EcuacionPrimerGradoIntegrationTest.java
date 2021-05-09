@@ -13,4 +13,14 @@ public class EcuacionPrimerGradoIntegrationTest {
 
         assertEquals(valueExpected, result);
     }
+    @Test
+    public void solucionaEcuacionConMas() {
+
+        Double result = ecuacion.obtenerResultado("2x + 1 = 0");
+
+        Double valueExpected = -0.5;
+
+        assertEquals(valueExpected, result);
+    }
+
 }
