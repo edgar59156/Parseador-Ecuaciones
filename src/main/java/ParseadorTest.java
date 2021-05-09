@@ -17,7 +17,7 @@ public class ParseadorTest {
     @Test
     public void obtenerOperadorSuma() {
 
-        String ecuacion2 = "2x + 1 = 0";
+        String ecuacion2 = "3x + 2 = 0";
 
         String operador = parseador.obtenerOperador(ecuacion2);
 
