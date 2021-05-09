@@ -1,5 +1,4 @@
 public class EcuacionPrimerGrado {
-
     private Parseador parseador = new Parseador();
 
     public double obtenerResultado(final String ecuacion) {
