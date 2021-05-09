@@ -24,6 +24,17 @@ public class ParseadorTest {
         assertEquals(1, resultado);
     }
     @Test
+    public void obtenerParte3Positivo() {
+
+        String ecuacion1 = "2x + 1 = 3";
+
+        int resultado = parseador.obtenerParte3(ecuacion1);
+
+        assertEquals(3, resultado);
+    }
+
+
+    @Test
     public void obtenerOperadorSuma() {
 
         String ecuacion2 = "3x + 2 = 0";
