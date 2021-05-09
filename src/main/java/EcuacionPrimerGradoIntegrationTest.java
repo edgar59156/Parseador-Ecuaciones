@@ -22,5 +22,14 @@ public class EcuacionPrimerGradoIntegrationTest {
 
         assertEquals(valueExpected, result);
     }
+    @Test
+    public void solucionaEcuacionConParte3Mayor0() {
+
+        Double result = ecuacion.obtenerResultado("2x + 1 = 10");
+
+        Double valueExpected = 4.5;
+
+        assertEquals(valueExpected, result);
+    }
 
 }
